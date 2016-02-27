@@ -1,18 +1,6 @@
-# CKEditor plugins repository
+# Liferay plugins repository
 
 
-## Lorem Ipsum plugin (http://ckeditor.com/addon/loremipsum) :
+## Portlet's Context Script Executor (https://www.liferay.com/fr/marketplace/-/mp/application/59361035) :
 
-Installation instructions :
--------------
-
-1. Download plugin http://ckeditor.com/addon/loremipsum
-2. In configuration file of your ckeditor, put config.extraPlugins = 'loremipsum'
-3. And in you toolbar 
-
-```
-    config.toolbar_... = [
-		['Loremipsum'], ['Bold', 'Italic', 'Underline'],
-		....,
-	];
-```
+This hook allows to execute scripts (groovy, javascript...) in control panel using all contexts (portlets, webs, hooks and portal) , so now we can access easily to portlets objects with script from the control panel, so we don't need to add this objects into public classloader.
